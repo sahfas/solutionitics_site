@@ -134,7 +134,7 @@ p { margin-bottom: 1rem; }
 }
 .nav-links a:hover, .nav-links a.active { color: var(--text-primary); }
 .nav-links a:hover::after, .nav-links a.active::after { width: 100%; }
-.nav-cta { margin-left: 12px; }
+.nav-cta { margin-left: 12px; color: var(--text-primary)!important;}
 .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; z-index: 1001; }
 .hamburger span { width: 24px; height: 2px; background: var(--text-primary); transition: var(--transition); border-radius: 2px; }
 .hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
