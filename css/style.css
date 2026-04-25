@@ -121,7 +121,7 @@ p { margin-bottom: 1rem; }
 }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; }
 .nav-logo { display: flex; align-items: center; gap: 12px; font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; color: var(--text-primary); }
-.logo-img { height: 40px; width: auto; }
+.logo-img { height: 40px; width: auto; border-radius: 5px;}
 .logo-text-wrap { display: flex; flex-direction: column; line-height: 1.2; }
 .logo-text { color: var(--text-primary); }
 .logo-tagline { font-size: 0.7rem; font-weight: 400; color: var(--accent); text-transform: uppercase; letter-spacing: 0.5px; }
