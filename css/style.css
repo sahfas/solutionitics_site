@@ -231,6 +231,12 @@ body.nav-open .nav-backdrop { opacity: 1; visibility: visible; }
 }
 .hero-stat h3 { font-size: 2.5rem; color: var(--accent); font-weight: 800; }
 .hero-stat p { font-size: 0.9rem; color: var(--text-tertiary); margin: 0; }
+/* attributes the headline figures to the founders, so they read as a
+   verifiable track record rather than a 2026 startup's inflated claim */
+.hero-stats-note {
+  margin: 20px 0 0; font-size: 0.8rem; color: var(--text-tertiary);
+  text-align: center; opacity: 0.85;
+}
 
 /* --- 8. Service Cards --- */
 .service-card {
