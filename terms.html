@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Outfit:wght@400;500;600;700;800&amp;display=swap">
   <title>Terms of Service — Solutionitics</title>
   <meta name="description" content="Read the Terms of Service for Solutionitics IT solutions and web development services.">
   <meta name="robots" content="index, follow">
@@ -15,29 +18,112 @@
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "whay2vbx6r");
 </script>
+  <!-- Icons & PWA -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#080A12">
+  <meta name="color-scheme" content="dark">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Solutionitics">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Terms of Service — Solutionitics">
+  <meta property="og:description" content="The terms governing use of Solutionitics services and website.">
+  <meta property="og:url" content="https://solutionitics.com/terms.html">
+  <meta property="og:image" content="https://solutionitics.com/assets/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Solutionitics — Engineering Digital Solutions">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Terms of Service — Solutionitics">
+  <meta name="twitter:description" content="The terms governing use of Solutionitics services and website.">
+  <meta name="twitter:image" content="https://solutionitics.com/assets/images/og-image.jpg">
+  <!-- If JS fails, never leave the page blank -->
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://solutionitics.com/#organization",
+      "name": "Solutionitics",
+      "url": "https://solutionitics.com",
+      "logo": "https://solutionitics.com/assets/images/icon-512.png",
+      "image": "https://solutionitics.com/assets/images/og-image.jpg",
+      "description": "IT solutions company specializing in web development, Shopify stores, and automation.",
+      "foundingDate": "2026",
+      "areaServed": "Worldwide",
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Mohamed Sahfas",
+          "jobTitle": "Co-Founder & Full Stack Developer",
+          "sameAs": ["https://sahfas.github.io/", "https://github.com/sahfas"]
+        },
+        {
+          "@type": "Person",
+          "name": "Sajaath Mohamed",
+          "jobTitle": "Co-Founder & Shopify Expert",
+          "sameAs": [
+            "https://sajaath-mohamed.online/",
+            "https://github.com/mohamedsajaath",
+            "https://www.linkedin.com/in/sajaathmohamed"
+          ]
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@solutionitics.com",
+        "contactType": "customer service",
+        "availableLanguage": ["English"]
+      }
+    }
+    ]
+  }
+  </script>
 </head>
 <body>
 
-  <!-- NAV -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+
+  <!-- ===== NAVIGATION ===== -->
   <nav class="navbar" id="navbar">
+    <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
     <div class="container nav-inner">
-      <a href="index.html" class="nav-logo">
-        <img src="assets/images/logo.png" alt="Solutionitics Logo" class="logo-img">
-        <div class="logo-text-wrap">
+      <a href="index.html" class="nav-logo" aria-label="Solutionitics — home">
+        <img src="assets/images/logo.png" alt="" width="40" height="40" class="logo-img">
+        <span class="logo-text-wrap">
           <span class="logo-text">Solutionitics</span>
           <span class="logo-tagline">Engineering Digital Solutions</span>
-        </div>
+        </span>
       </a>
+
+      <button type="button" class="hamburger" id="hamburger"
+              aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
       <div class="nav-links" id="nav-links">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
         <a href="contact.html">Contact</a>
         <a href="contact.html" class="btn btn-primary nav-cta">Get a Quote</a>
+        <div class="nav-menu-footer">
+          <span>Get in touch</span>
+          <a href="mailto:hello@solutionitics.com"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> hello@solutionitics.com</a>
+        </div>
       </div>
-      <div class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></div>
     </div>
   </nav>
+
+  <main id="main">
 
   <!-- PAGE HERO -->
   <section class="page-hero">
@@ -132,24 +218,55 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
+  </main>
+
+  <!-- ===== FOOTER ===== -->
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="index.html" class="nav-logo" style="margin-bottom:4px;">
-            <img src="assets/images/logo.png" alt="Solutionitics Logo" class="logo-img" style="height:40px;">
+          <a href="index.html" class="nav-logo" aria-label="Solutionitics — home">
+            <img src="assets/images/logo.png" alt="" width="40" height="40" class="logo-img">
             <span class="logo-text">Solutionitics</span>
           </a>
-          <p>Engineering digital solutions that scale.</p>
+          <p>Engineering digital solutions that scale. We specialize in web development, Shopify stores, and automation for businesses worldwide.</p>
         </div>
-        <div><h4>Quick Links</h4><div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="contact.html">Contact</a></div></div>
-        <div><h4>Legal</h4><div class="footer-links"><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></div></div>
-        <div><h4>Get In Touch</h4><div class="footer-contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>hello@solutionitics.com</span></div></div>
+        <div>
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <div class="footer-links">
+            <a href="services.html">Web Development</a>
+            <a href="services.html">Shopify Stores</a>
+            <a href="services.html">Automation</a>
+            <a href="services.html">UI/UX Design</a>
+          </div>
+        </div>
+        <div>
+          <h4>Get In Touch</h4>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:hello@solutionitics.com">hello@solutionitics.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Available Worldwide — Remote First</span>
+          </div>
+        </div>
       </div>
       <div class="footer-bottom">
-        <span>© 2026 Solutionitics. All rights reserved.</span>
-        <div class="footer-legal"><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></div>
+        <span>&copy; <span data-current-year>2026</span> Solutionitics. All rights reserved.</span>
+        <div class="footer-legal">
+          <a href="terms.html">Terms of Service</a>
+          <a href="privacy.html">Privacy Policy</a>
+        </div>
       </div>
     </div>
   </footer>

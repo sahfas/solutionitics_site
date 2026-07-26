@@ -3,22 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Outfit:wght@400;500;600;700;800&amp;display=swap">
   <title>Solutionitics — IT Solutions, Web Development & Shopify Experts</title>
   <meta name="description" content="Solutionitics delivers premium web development, Shopify store builds, automation, and IT solutions. Founded by industry experts with 50+ projects delivered.">
   <meta name="keywords" content="web development, Shopify development, automation, IT solutions, full stack, ecommerce, SEO optimization">
   <meta name="author" content="Solutionitics">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://solutionitics.com/">
-  <!-- Open Graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Solutionitics — Engineering Digital Solutions That Scale">
-  <meta property="og:description" content="Premium web development, Shopify stores, automation & IT solutions by industry experts.">
-  <meta property="og:url" content="https://solutionitics.com/">
-  <meta property="og:site_name" content="Solutionitics">
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Solutionitics — Engineering Digital Solutions That Scale">
-  <meta name="twitter:description" content="Premium web development, Shopify stores, automation & IT solutions by industry experts.">
   <link rel="stylesheet" href="css/style.css">
   <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
@@ -27,53 +20,121 @@
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "whay2vbx6r");
 </script>
-  <!-- Schema.org Structured Data -->
+  
+  <!-- Icons & PWA -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#080A12">
+  <meta name="color-scheme" content="dark">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Solutionitics">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Solutionitics — Engineering Digital Solutions That Scale">
+  <meta property="og:description" content="Premium web development, Shopify stores, automation & IT solutions by industry experts.">
+  <meta property="og:url" content="https://solutionitics.com/">
+  <meta property="og:image" content="https://solutionitics.com/assets/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Solutionitics — Engineering Digital Solutions">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Solutionitics — Engineering Digital Solutions That Scale">
+  <meta name="twitter:description" content="Premium web development, Shopify stores, automation & IT solutions by industry experts.">
+  <meta name="twitter:image" content="https://solutionitics.com/assets/images/og-image.jpg">
+  <!-- If JS fails, never leave the page blank -->
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Solutionitics",
-    "url": "https://solutionitics.com",
-    "description": "IT solutions company specializing in web development, Shopify stores, and automation.",
-    "foundingDate": "2026",
-    "founders": [
-      {"@type": "Person", "name": "Mohamed Sahfas", "jobTitle": "Co-Founder & Full Stack Developer"},
-      {"@type": "Person", "name": "Sajaath Mohamed", "jobTitle": "Co-Founder & Shopify Expert"}
-    ],
-    "sameAs": [],
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "email": "hello@solutionitics.com",
-      "contactType": "customer service"
+    "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://solutionitics.com/#organization",
+      "name": "Solutionitics",
+      "url": "https://solutionitics.com",
+      "logo": "https://solutionitics.com/assets/images/icon-512.png",
+      "image": "https://solutionitics.com/assets/images/og-image.jpg",
+      "description": "IT solutions company specializing in web development, Shopify stores, and automation.",
+      "foundingDate": "2026",
+      "areaServed": "Worldwide",
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Mohamed Sahfas",
+          "jobTitle": "Co-Founder & Full Stack Developer",
+          "sameAs": ["https://sahfas.github.io/", "https://github.com/sahfas"]
+        },
+        {
+          "@type": "Person",
+          "name": "Sajaath Mohamed",
+          "jobTitle": "Co-Founder & Shopify Expert",
+          "sameAs": [
+            "https://sajaath-mohamed.online/",
+            "https://github.com/mohamedsajaath",
+            "https://www.linkedin.com/in/sajaathmohamed"
+          ]
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@solutionitics.com",
+        "contactType": "customer service",
+        "availableLanguage": ["English"]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://solutionitics.com/#website",
+      "url": "https://solutionitics.com",
+      "name": "Solutionitics",
+      "publisher": { "@id": "https://solutionitics.com/#organization" },
+      "inLanguage": "en"
     }
+    ]
   }
   </script>
-  
 </head>
 <body>
 
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+
   <!-- ===== NAVIGATION ===== -->
   <nav class="navbar" id="navbar">
+    <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
     <div class="container nav-inner">
-      <a href="index.html" class="nav-logo">
-        <img src="assets/images/logo.png" alt="Solutionitics Logo" class="logo-img">
-        <div class="logo-text-wrap">
+      <a href="index.html" class="nav-logo" aria-label="Solutionitics — home">
+        <img src="assets/images/logo.png" alt="" width="40" height="40" class="logo-img">
+        <span class="logo-text-wrap">
           <span class="logo-text">Solutionitics</span>
           <span class="logo-tagline">Engineering Digital Solutions</span>
-        </div>
+        </span>
       </a>
+
+      <button type="button" class="hamburger" id="hamburger"
+              aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
       <div class="nav-links" id="nav-links">
-        <a href="index.html" class="active">Home</a>
+        <a href="index.html" class="active" aria-current="page">Home</a>
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
         <a href="contact.html">Contact</a>
         <a href="contact.html" class="btn btn-primary nav-cta">Get a Quote</a>
-      </div>
-      <div class="hamburger" id="hamburger" aria-label="Toggle menu">
-        <span></span><span></span><span></span>
+        <div class="nav-menu-footer">
+          <span>Get in touch</span>
+          <a href="mailto:hello@solutionitics.com"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> hello@solutionitics.com</a>
+        </div>
       </div>
     </div>
   </nav>
+
+  <main id="main">
 
   <!-- ===== HERO ===== -->
   <section class="hero" id="hero">
@@ -290,10 +351,10 @@
             </div>
           </div>
         </div>
-        <div class="testimonial-dots">
-          <span class="dot active" data-index="0"></span>
-          <span class="dot" data-index="1"></span>
-          <span class="dot" data-index="2"></span>
+        <div class="testimonial-dots" aria-label="Choose a testimonial">
+          <button type="button" class="dot active" data-index="0" aria-current="true" aria-label="Show testimonial 1 of 3"></button>
+          <button type="button" class="dot" data-index="1" aria-current="false" aria-label="Show testimonial 2 of 3"></button>
+          <button type="button" class="dot" data-index="2" aria-current="false" aria-label="Show testimonial 3 of 3"></button>
         </div>
       </div>
     </div>
@@ -312,13 +373,15 @@
     </div>
   </section>
 
+  </main>
+
   <!-- ===== FOOTER ===== -->
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="index.html" class="nav-logo" style="margin-bottom:4px;">
-            <img src="assets/images/logo.png" alt="Solutionitics Logo" class="logo-img" style="height:40px;">
+          <a href="index.html" class="nav-logo" aria-label="Solutionitics — home">
+            <img src="assets/images/logo.png" alt="" width="40" height="40" class="logo-img">
             <span class="logo-text">Solutionitics</span>
           </a>
           <p>Engineering digital solutions that scale. We specialize in web development, Shopify stores, and automation for businesses worldwide.</p>
@@ -344,17 +407,17 @@
         <div>
           <h4>Get In Touch</h4>
           <div class="footer-contact-item">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            <span>hello@solutionitics.com</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:hello@solutionitics.com">hello@solutionitics.com</a>
           </div>
           <div class="footer-contact-item">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
             <span>Available Worldwide — Remote First</span>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© 2026 Solutionitics. All rights reserved.</span>
+        <span>&copy; <span data-current-year>2026</span> Solutionitics. All rights reserved.</span>
         <div class="footer-legal">
           <a href="terms.html">Terms of Service</a>
           <a href="privacy.html">Privacy Policy</a>
